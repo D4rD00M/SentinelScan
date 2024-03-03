@@ -45,7 +45,7 @@ Welcome to the Exploit Overlords team!
 
 
 ### Contributors & Thanks
-[<img src="https://github.com/Xer0Weeds/Contributors/blob/main/Creators%20%26%20Projects/Z3nith.jpg" alt="Z3nith" width="175" style="vertical-align: bottom;">](https://github.com/Lalitj2004)
+[<img src="https://github.com/Xer0Weeds/Contributors/blob/main/Creators%20%26%20Projects/Z3nith.jpg" alt="Z3nith" width="175" style="vertical-align: bottom;">](https://github.com/Z3nithn)
 [<img src="https://github.com/Xer0Weeds/Contributors/blob/main/Creators%20%26%20Projects/Kraven.jpg" alt="Kraven" width="175" style="vertical-align: bottom;">](https://github.com/amanr3207)
 
 
