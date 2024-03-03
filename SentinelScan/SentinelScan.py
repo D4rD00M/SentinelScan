@@ -1,5 +1,6 @@
 import socket
 import sys
+import threading
 
 common_ports = {
     21: "FTP",
@@ -12,31 +13,30 @@ common_ports = {
 }
 
 # Function to scan for open ports
+def scan_port(target, port):
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    sock.settimeout(1)
+
+    try:
+        result = sock.connect_ex((target, port))
+        if result == 0:
+            print(f"Port {port} ({common_ports.get(port, 'Unknown')}) is open")
+    except Exception as e:
+        print(f"Error occurred while scanning port {port}: {e}")
+    finally:
+        sock.close()
+
 def scan(target):
     print("Scanning ports on target:", target)
-    open_ports = []
 
+    threads = []
     for port in common_ports.keys():
-        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        sock.settimeout(1) 
+        thread = threading.Thread(target=scan_port, args=(target, port))
+        thread.start()
+        threads.append(thread)
 
-        try:
-            result = sock.connect_ex((target, port))
-            if result == 0:
-                print(f"Port {port} ({common_ports[port]}) is open")
-                open_ports.append(port)
-            sock.close()
-        except KeyboardInterrupt:
-            print("\nScan interrupted by user.")
-            sys.exit()
-        except socket.gaierror:
-            print("Hostname could not be resolved. Exiting.")
-            sys.exit()
-        except socket.error:
-            print("Could not connect to server.")
-            sys.exit()
-
-    return open_ports
+    for thread in threads:
+        thread.join()
 
 # Main function
 def main():
@@ -46,7 +46,7 @@ def main():
 
     # Prompt user for target IP address or hostname
     target = input("Enter the target IP address or hostname: ")
-    open_ports = scan(target)
+    open_ports=scan(target)
 
     if open_ports:
         print("Potential vulnerabilities found. Checking CVE database.")
