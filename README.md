@@ -6,7 +6,7 @@ Welcome to the Exploit Overlords team!
 
 ### SentinelScan a vulnerability scanner by Exploit OverLords: Xer0weeds, Z3nith, & Kraven. Unlocking security insights.
 
-<img align="right" alt="Banner" width="400" src="https://github.com/Xer0Weeds/Contributors/blob/main/Creators%20%26%20Projects/SentinelScan.jpg">
+<img src="https://github.com/Xer0Weeds/Contributors/blob/main/Creators%20%26%20Projects/SentinelScan.jpg" alt="SentinelScan" width="400" style="vertical-align: bottom;">
 
 **SentinelScan** is a revolutionize & unique vulnerability scanner for Linux , Windows & Mac **SentinelScan** Provides An Easy way of scanning vulnerabilities & after scanning it gives the vulnerability CVE ID. 
  
@@ -40,13 +40,13 @@ Welcome to the Exploit Overlords team!
 ## Team Members
 
 ### Creator
-[<img src="https://github.com/Xer0Weeds/Contributors/blob/main/Creators%20%26%20Projects/Xer0Weeds.jpg" alt="Creator" width="210" style="vertical-align: bottom;">](https://link.to/contributor1)
+[<img src="https://github.com/Xer0Weeds/Contributors/blob/main/Creators%20%26%20Projects/Xer0Weeds.jpg" alt="Creator" width="210" style="vertical-align: bottom;">](https://github.com/Xer0Weeds)
 
 
 
 ### Contributors & Thanks
 [<img src="https://github.com/Xer0Weeds/Contributors/blob/main/Creators%20%26%20Projects/Z3nith.jpg" alt="Z3nith" width="175" style="vertical-align: bottom;">](https://github.com/Lalitj2004)
-[<img src="https://github.com/Xer0Weeds/Contributors/blob/main/Creators%20%26%20Projects/Kraven.jpg" alt="Kraven" width="175" style="vertical-align: bottom;">](https://link.to/contributor1)
+[<img src="https://github.com/Xer0Weeds/Contributors/blob/main/Creators%20%26%20Projects/Kraven.jpg" alt="Kraven" width="175" style="vertical-align: bottom;">](https://github.com/amanr3207)
 
 
 
