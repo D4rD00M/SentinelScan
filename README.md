@@ -6,7 +6,7 @@ Welcome to the Exploit Overlords team!
 
 ### SentinelScan a vulnerability scanner by Exploit OverLords: Xer0weeds, Z3nith, & Kraven. Unlocking security insights.
 
-![Banner](https://drive.google.com/file/d/1h2sfUeDWDHxvA_akCQ-lU1nSbMxt_3K4/view?usp=drive_link)
+![Banner]<img align="right" alt="Coding" width="200" src="https://drive.google.com/file/d/1h2sfUeDWDHxvA_akCQ-lU1nSbMxt_3K4/view?usp=drive_link">
 
 **SentinelScan** is a revolutionize & unique vulnerability scanner for Linux , Windows & Mac **SentinelScan** Provides An Easy way of scanning vulnerabilities & after scanning it gives the vulnerability CVE ID 
  
