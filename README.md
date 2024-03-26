@@ -4,14 +4,14 @@ Welcome to the Exploit Overlords team!
 
 
 
-### SentinelScan a vulnerability scanner by Exploit OverLords: Xer0weeds, Z3nith, & Kraven. Unlocking security insights.
+### SentinelScan a vulnerability scanner by Exploit OverLords: D4rD00M,Z3nithn, & Kraven. Unlocking security insights.
 
 <img src="https://github.com/Xer0Weeds/Contributors/blob/main/Creators%20%26%20Projects/SentinelScan.jpg" alt="SentinelScan" width="400" style="vertical-align: bottom;">
 
-**SentinelScan** is a revolutionize & unique vulnerability scanner for Linux , Windows & Mac **SentinelScan** Provides An Easy way of scanning vulnerabilities & after scanning it gives the vulnerability CVE ID. 
+**SentinelScan** is a revolutionize & unique vulnerability scanner for Linux , Windows & Mac. **SentinelScan** Provides An Easy way of scanning vulnerabilities & after scanning it gives the vulnerability CVE ID. 
  
  ## Information
- This tool is for educational purpose only, usage of TheFatRat for attacking targets without prior mutual consent is illegal.
+ This tool is for educational purpose only, usage of SentinelScan for attacking targets without prior mutual consent is illegal.
 Developers assume no liability and are not responsible for any misuse or damage cause by this program.
 
  ## Features !
